@@ -75,9 +75,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
+      backgroundColor: Colors.green[200],
       appBar: AppBar(
-        title: Text('TO DO'),
+        title: Text('Aditya todays tasks!'),
         elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
